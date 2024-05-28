@@ -1,0 +1,299 @@
+body{
+  background-color: #e4fef8;
+}
+a.l{
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+a.l:hover:not(.active){
+  background-color:#ddd;
+}
+#logo{
+  height: 50px;
+  width: 50px;
+  float:left;
+  cursor: no-drop;
+}
+.main{
+  text-align: center;
+  text-shadow: 2px 2px 2px Black;
+  color: red;
+  font-size: 30px;
+  text-decoration:  underline;
+  font-family: fantasy;
+  font-weight: bold;
+}
+.mr{
+  border-top: 2px solid BLACK;
+  border-bottom: 2px solid BLACK;
+  margin-top: 5px;
+  padding-top: -10px;
+  background-color: #e4fdb8;
+  cursor: no-drop;
+
+
+}
+.video{
+  text-align: center;
+  font-size: 40px;
+  padding: -10px;
+  margin: -10px;
+}
+.v{
+
+  float: none;
+
+}
+#v1{
+  height: 310px;
+  width: 600px;
+  margin: -10px;
+  float: none;
+  transition: width 0.2s , height 0.2s;
+
+  cursor: grab;
+}
+#v1:hover{
+height: 320px;
+  width: 610px;
+  border: 1px solid black;
+}
+
+#s{
+  color: yellow;
+  font-family: cursive;
+  -webkit-text-stroke: 1px black;
+  font-size: 40px;
+  font-weight: 20px;
+  text-shadow: 2px 2px 2px Black;
+  transition: color 0.5s;
+}
+
+#s:hover{
+  color: red;
+}
+
+video{
+  height: 400px;
+  width: 650px;
+  margin: 10px;
+
+}
+#search{
+
+  margin: 0px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+width: 90px;
+height: 20px;
+outline: none;
+transition: width 1s;
+}
+
+
+.sr{
+  float: right;
+
+align-items: center;
+margin: 12px;
+padding-right: 13px;
+
+}
+
+
+
+#search:hover{
+
+width: 200px;
+}
+.m{
+  position:fixed;
+  bottom: 0px;
+}
+.c{
+  position: fixed;
+              padding: 5px 0px 0px 5px;
+              bottom: 0;
+              width: 100%;
+              height: 20px;
+cursor: none;
+  text-align: center;
+}
+.m{
+  position: fixed;
+}
+button.vi{
+  width: 200px;
+  height: 50px;
+  transition: width 0.2s , height 0.2s;
+cursor: pointer;
+}
+button.vi:hover{
+  background-color: red;
+  height: 60px;
+  width: 300px;
+}
+
+button.vb{
+  cursor: pointer;
+margin-top: -10px;
+    padding: 0px;
+    border: none;
+  width: 0px;
+  height: 0px;
+  font-size: 17px;
+}
+button.vb:hover{
+
+color: orange;
+}
+
+
+
+
+
+
+
+footer{
+margin: 0px;
+padding: 0px;
+
+	bottom: 0px;;
+	background: black;
+	height: auto;
+	width: auto;
+	padding: 30px 0 0 0;
+}
+/*content*/
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
+  box-sizing: border-box;
+  color: #cfd2d6;
+}
+.footer p{
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+/*social -media*/
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 20px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+
+  padding: 5px;
+  border-radius: 45%;
+}
+.socials a i{
+  font-size:30px;
+  width: 20px;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+    color: dodgerblue;
+}
+/* copyright*/
+.footer-copyright{
+    background: #000;
+
+    padding: 20px 20px 50px 20px;
+}
+.footer-copyright p{
+    font-size: 14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*contact page Css*/
+.ct{
+  color: rgba(255, 0, 0, 0.5);
+  font-size:50px ;
+  font-weight: bold;
+  font-stretch: expanded;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  text-indent: 10px;
+  text-transform: capitalize;
+text-shadow: 1px 1px red;
+  font-display: block;
+  font-family: cursive;
+}
+
+
+
+.ss{
+text-align: center;
+font-display: block;
+
+font-size: 50px;
+
+
+}
+.ssl:hover{
+    color: dodgerblue;
+}
+.ssl{
+text-shadow: 2px 1px  3px black;
+
+font-family: sans-serif;
+text-decoration: none;
+}
+.content{
+  text-align: center;
+  background-color: #00FFB7;
+  font-size: 50px;
+
+}
+.content:hover{
+  background-color: #FF005C;
+  cursor: pointer;
+
+}
+.shivam{
+  text-decoration: none;
+}
+.shivam:hover{
+  color: #000000;
+}
+.p{
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  font-size: 40px;
+  color: #BFFF00;
+  font-family: monospace;
+  font-weight: bold;
+}
+.ig{
+height: 500px;
+width: 1000px;
+
+}
